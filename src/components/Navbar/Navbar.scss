@@ -1,0 +1,38 @@
+.navbar__navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar__navbar__link{
+    // border: 3px solid blue;
+    &:first-child{
+      margin-right: 60px;
+    }
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .navbar__navbar__menu{
+    // border: 3px solid yellowgreen;
+    .navbar__navbar__menu__link{
+      margin-right: 20px;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    display: flex;
+    align-items: center;
+    .navbar__navbar__menu__link__hamberger{
+      width: 24px;
+      position: relative;
+      top: 1px;
+      span {
+        border: 0.5px solid black;
+        position: relative;
+        display: block;
+        // width: 100%;
+        height: 0px;
+        margin: 4px 0;
+      }
+    }
+  }
+}
