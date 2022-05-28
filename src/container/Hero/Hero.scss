@@ -24,7 +24,7 @@
     }
 
     .hero__inner{
-      height: 100vh;
+      height: 76vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -45,9 +45,10 @@
       .hero__inner__links{
         z-index: 11;
         position: relative;
-        border: 3px solid tomato;
+        // border: 3px solid tomato;
         @media (min-width: 360px) {
           // display: flex;
+          // margin: 0;
         }
         @media (min-width: 768px) {
           display: flex;

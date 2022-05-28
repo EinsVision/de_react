@@ -1,21 +1,22 @@
 .links__links__item{
   // border: 1px solid #ff6347;
   
-  .links__links__item__padding{
-    position: relative;
-    &:before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: -30vh;
-      bottom: -30vh;
-      left: 0;
-      right: 0;
-    }
-  }
+  // .links__links__item__padding{
+  //   position: relative;
+  //   &:before {
+  //     content: "";
+  //     display: block;
+  //     position: absolute;
+  //     top: -30vh;
+  //     bottom: -30vh;
+  //     left: 0;
+  //     right: 0;
+  //   }
+  // }
 
   a {
     padding: 12px 22px;
+    
     display: inline-block;
     position: relative;
     overflow: hidden;
