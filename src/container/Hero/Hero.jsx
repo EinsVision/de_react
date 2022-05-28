@@ -18,6 +18,15 @@ function Hero() {
             </div>
           </div>
         </div>
+        <div className="hero__inner__footer">
+          <div className="hero__ineer__footer__text">
+            <p>
+              Leading digital agency with solid design and development
+              expertise. We build readymade websites, mobile applications, and
+              elaborate online business services.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )
